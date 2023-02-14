@@ -1,19 +1,22 @@
-.warning {
+.odd {
     font-family: "Verdana", "DejaVu Sans", "sans-serif";
     background-color: #ff000080;
 }
 
-#big-blue {
+#two {
     font-size: 36px;
     color: #0000ff;
 }
 
-.warning.important {
+/*
+    Avoid duplicate code by 
+    sharing the same class
+*/
+.medium-font-size {
     font-size: 24px;
 }
 
-#success {
-    font-size: 24px;
+#four {
     font-weight: bold;
     background-color: hsl(120, 100%, 75%);
 }
