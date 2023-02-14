@@ -1,0 +1,19 @@
+.warning {
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+    background-color: #ff000080;
+}
+
+#big-blue {
+    font-size: 36px;
+    color: #0000ff;
+}
+
+.warning.important {
+    font-size: 24px;
+}
+
+#success {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: hsl(120, 100%, 75%);
+}
